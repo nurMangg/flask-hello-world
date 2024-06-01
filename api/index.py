@@ -95,7 +95,7 @@ foods = [
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/api/makanan')
 def home():
     return jsonify(foods)
 
